@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: aliceblue;
+}
+
+.App {
+  position: relative;
+  text-align: center;;
+}
+
+.AppContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  max-width: 60%;
+}
+
+.AppContent h1 {
+  text-transform: uppercase;
+}
+input {
+
+  height: 45px;
+  border: 2px solid black;
+  padding: 5px 0;
+  font-size: 38px;
+  border: none;
+  border-bottom: 1px solid blueviolet;
+  background-color: transparent;
+  outline: none;
+}
+button {
+  height: 45px;
+  min-width: 150px;
+  font-size: 30px;
+  border-radius: 10px;
+  background-color: blueviolet;
+  border: none;
+  outline: none;
+}
+
+.res {
+  font-size: 40px;
+  font-weight: 700;
+  height: 45px;
+  background-color: #e3fffd;
+  border-radius: 10px;
+}
+
+.res > h5 {
+margin: auto;
+}
